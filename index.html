@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barmo.run</title>
-  <style>
-    body {
-      background: #f7f7f7;
-      font-family: system-ui, Arial, sans-serif;
-      color: #212121;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 700px;
-      margin: 3em auto;
-      background: #fff;
-      border-radius: 6px;
-      box-shadow: 0 8px 32px #ddd;
-      padding: 3em 2em;
-    }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 0.5em;
-      color: #0057b7;
-    }
-    .post {
-      margin-bottom: 2em;
-      padding-bottom: 1em;
-      border-bottom: 1px solid #eee;
-    }
-    .post:last-child {
-      border-bottom: none;
-    }
-    .post-title {
-      font-size: 1.2em;
-      font-weight: 600;
-      margin: 0 0 0.3em 0;
-    }
-    .post-desc {
-      margin: 0;
-      color: #555;
-      font-size: 1em;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Barmo.run – Recensioni & Consigli</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  body {
+    background: #f7f7f7;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0; padding: 0;
+    color: #222;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 700px;
+    margin: 3em auto;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 8px 32px #ddd;
+    padding: 3em 2em;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    color: #0057b7;
+  }
+  .post {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5em;
+  }
+  .post:last-child {
+    border-bottom: none;
+  }
+  .post-title {
+    font-weight: 600;
+    font-size: 1.15em;
+    margin: 0 0 0.3em 0;
+  }
+  .post-desc {
+    color: #555;
+    font-size: 1em;
+    margin: 0;
+  }
+  a {
+    color: #0057b7;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
+  <main>
     <h1>Barmo.run – Recensioni & Consigli</h1>
-    <div class="post">
-      <div class="post-title">MSI Modern AM242</div>
-      <div class="post-desc">Recensione al nuovo All-In-One PC MSI con Intel Alder Lake e design rinnovato. Equilibrato e comodo, senza difetti tecnici.</div>
-    </div>
-    <div class="post">
-      <div class="post-title">Lenovo ThinkPad X13s ARM</div>
-      <div class="post-desc">Autonomia top, prestazioni sorprendenti, può essere una valida alternativa ad Apple MacBook?</div>
-    </div>
-    <div class="post">
-      <div class="post-title">Lenovo ThinkBook Plus Gen3</div>
-      <div class="post-desc">Portatile con doppio schermo, analisi tecnica e approfondimento software.</div>
-    </div>
-    <div class="post">
-      <div class="post-title">ThinkPad Z13 e Z16 Ryzen OLED</div>
-      <div class="post-desc">Nuovo design, hardware AMD Ryzen, schermo OLED, video e benchmark.</div>
-    </div>
-    <div class="post">
-      <div class="post-title">Consigli digitali</div>
-      <div class="post-desc">Come proteggere dati, account e conti in caso di decesso o furto.</div>
-    </div>
-    <div class="post">
-      <div class="post-title">Laptop restaurato da 15€</div>
-      <div class="post-desc">Tutorial su hardware e software per trasformare un vecchio portatile.</div>
-    </div>
-  </div>
+    <article class="post">
+      <h2 class="post-title">MSI Modern AM242</h2>
+      <p class="post-desc">Recensione al nuovo All-In-One PC MSI con Intel Alder Lake e design rinnovato. Equilibrato e comodo, senza difetti tecnici.</p>
+    </article>
+    <article class="post">
+      <h2 class="post-title">Lenovo ThinkPad X13s ARM</h2>
+      <p class="post-desc">Autonomia top, prestazioni sorprendenti, può essere una valida alternativa ad Apple MacBook?</p>
+    </article>
+    <article class="post">
+      <h2 class="post-title">Lenovo ThinkBook Plus Gen3</h2>
+      <p class="post-desc">Portatile con doppio schermo, analisi tecnica e approfondimento software.</p>
+    </article>
+    <article class="post">
+      <h2 class="post-title">ThinkPad Z13 e Z16 Ryzen OLED</h2>
+      <p class="post-desc">Nuovo design, hardware AMD Ryzen, schermo OLED, video e benchmark.</p>
+    </article>
+    <article class="post">
+      <h2 class="post-title">Consigli digitali</h2>
+      <p class="post-desc">Come proteggere dati, account e conti in caso di decesso o furto.</p>
+    </article>
+    <article class="post">
+      <h2 class="post-title">Laptop restaurato da 15€</h2>
+      <p class="post-desc">Tutorial su hardware e software per trasformare un vecchio portatile.</p>
+    </article>
+  </main>
 </body>
 </html>
