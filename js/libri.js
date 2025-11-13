@@ -1,6 +1,5 @@
 const libri = [
-  {
-libri: {
+{
 author: "Milan Kundera"
 title: "L'insostenibile leggerezza dell'essere"
 endingDate: "10/03/2024"
@@ -160,7 +159,6 @@ title: "Il mondo di Sofia"
 endingDate: "26/06/2020"
 editor: "Longanesi"
 collana: ""
-}
 }
 ];
 
