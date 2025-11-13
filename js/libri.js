@@ -170,7 +170,7 @@ libri.forEach(libro => {
   const div = document.createElement('div');
   div.className = 'libro-entry';
   div.innerHTML = `
-    <img src="${libro.copertina}" alt="Copertina ${libro.title}" />
+    <!--<img src="${libro.copertina}" alt="Copertina ${libro.title}" />-->
     <div class="libro-info">
       <h2>${libro.title}</h2>
       <h2>${libro.author}</h2>
